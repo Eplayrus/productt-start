@@ -1,0 +1,15 @@
+[core]
+    enable = true
+
+[rules.flake8]
+    max-line-length = 120
+
+[rules.mypy]
+    ignore-error-types = ["mypy.error"]
+
+[fixes]
+    # Использовать black для форматирования кода
+    black = "black"
+
+    # Использовать isort для сортировки импортов
+    isort = "isort"

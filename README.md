@@ -1,2 +1,0 @@
-# productt-start
-git example
