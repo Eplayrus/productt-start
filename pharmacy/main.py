@@ -25,7 +25,7 @@ class Pharmacy:
             costumer_thread = threading.Thread(target= self.meet_costumer,
                                                args=(visitor,))
             costumer_thread.start()
-
+            costumer_thread.join()
 
 if __name__ == "__main__":
     pharmacy = Pharmacy()
